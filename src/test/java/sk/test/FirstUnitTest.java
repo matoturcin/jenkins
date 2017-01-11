@@ -1,6 +1,6 @@
-package com.anritsu.oralb;
+package sk.test;
 
-import com.anritsu.oralb.config.AppContext;
+import sk.test.config.AppContext;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.remote.AndroidMobileCapabilityType;
