@@ -34,14 +34,14 @@ public class FirstUnitTest {
         assertEquals("192.168.126.128:4031", appiumIP);
     }
     
-    @Test
-    public void samsungTest(){
-        assertEquals("192.168.126.128:4032", appiumIP);
-    }
-    
-    @Test
-    public void ihpneTest(){
-        assertEquals("192.168.126.128:4033", appiumIP);
-    }
+//    @Test
+//    public void samsungTest(){
+//        assertEquals("192.168.126.128:4032", appiumIP);
+//    }
+//    
+//    @Test
+//    public void ihpneTest(){
+//        assertEquals("192.168.126.128:4033", appiumIP);
+//    }
     
 }

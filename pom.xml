@@ -28,66 +28,11 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
             <version>4.3.4.RELEASE</version>
-        </dependency>
-        
+        </dependency>        
     </dependencies>
     
-    <!--    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-antrun-plugin</artifactId>
-                <version>1.8</version>
-                <executions>
-                    <execution>
-                        <id>test-reports</id>
-                        <phase>test</phase>
-                        <configuration>
-                            <tasks>
-                                <junitreport todir="target/surefire-reports">
-                                    <fileset dir="target/surefire-reports">
-                                        <include name="**/*.xml"/>
-                                    </fileset>
-                                    <report format="noframes" todir="target/surefire-reports"/>
-                                </junitreport>
-                            </tasks>
-                        </configuration>
-                        <goals>
-                            <goal>run</goal>
-                        </goals>
-                    </execution>
-                </executions>
-                <dependencies>
-                    <dependency>
-                        <groupId>ant</groupId>
-                        <artifactId>ant-junit</artifactId>
-                        <version>1.6.2</version>
-                    </dependency>
-                </dependencies>
-            </plugin>
-        </plugins>
-    </build>-->
-    
     <reporting>
-        <plugins>
-<!--            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.1</version>
-                <configuration>
-                    <reportsDirectory>${basedir}/target/${ORALB_JOB_NAME}/surefire-report</reportsDirectory>
-                </configuration>                
-            </plugin>-->
-<!--            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-site-plugin</artifactId>
-                <version>2.1</version>
-                <configuration>
-                    <outputDirectory>${basedir}/target/site</outputDirectory>
-                </configuration>
-            </plugin>-->
-            
-            
+        <plugins>            
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-report-plugin</artifactId>
