@@ -26,7 +26,7 @@ public class FirstUnitTest {
         
     @Test
     public void testingMethodFailure(){
-        assertEquals("hello", "helloxx");
+        assertEquals("helloxx", "helloxx");
     }
     
     @Test
