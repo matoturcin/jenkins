@@ -34,7 +34,7 @@ public class FirstUnitTest {
     
     private AndroidDriver<MobileElement> driver;
     
-    @Before
+//    @Before
     public void initialize() throws MalformedURLException{
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "emulator-5554");
@@ -91,7 +91,7 @@ public class FirstUnitTest {
         dialButton.click();
     }
     
-    @After
+//    @After
     public void terminate(){
         if (driver != null) {
             this.tryToCloseApp();
