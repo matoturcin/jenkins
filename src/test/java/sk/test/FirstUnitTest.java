@@ -48,22 +48,23 @@ public class FirstUnitTest {
     @Test
     public void testAppium() throws InterruptedException{
 //        removeOldNumber();
-        openDialer();
-        enterNumber();
-        dialNumber();
-        Thread.sleep(3000);
-        EndCall();
+//        openDialer();
+//        enterNumber();
+//        dialNumber();
+//        Thread.sleep(3000);
+//        EndCall();
+        assertEquals("appium test", "appium test");
     }
         
-//    @Test
-//    public void testingMethodFailure(){
-//        assertEquals("helloxx", "helloxx");
-//    }
-//    
-//    @Test
-//    public void htcTest(){
-//        assertEquals("192.168.126.128:4031", appiumIP);
-//    }
+    @Test
+    public void testingMethodFailure(){
+        assertEquals("hello", "helloxx");
+    }
+    
+    @Test
+    public void htcTest(){
+        assertEquals("192.168.126.128:4031", appiumIP);
+    }
     
     private void removeOldNumber() {
         MobileElement deleteButton = driver.findElement(By.id("com.android.dialer:id/deleteButton"));
